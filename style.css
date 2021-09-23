@@ -1,0 +1,171 @@
+*{
+		margin: 0px;
+		padding: 0px;
+}
+.navigation{
+font-size:17px;
+display:flex;	
+position:sticky;	 
+}
+li{
+				list-style:none;
+				padding:5px 6px;
+				margin:3px auto;		
+				font-family:'Bree serif',serif;
+}
+li a{
+				color:white;
+				background:black;
+				display:block;
+				border-radius:200px;
+				text-decoration:none;
+}
+li a:hover{
+				color: black;
+				background:white;
+}
+#Home{
+				display:flex;
+				flex-direction:column;
+				padding:30px 40px;
+				height:550px;
+				align-items:center;				
+				color:white;
+}
+#home{
+ position:absolute;
+ background:url('img/bg.jpg') no-repeat;
+	min-height:400px;
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+}
+.h-primary{
+				color: orange;
+				text-align:center;
+		font-family:'Bree serif',serif;
+}
+.ujju{
+     position: absolute;
+				top:300px;
+				left:400px;
+				
+				background: brown;
+				color: white;
+				padding:6px 20px;
+				font-size:1rem;
+				border-radius:10px;
+				border:2px solid black;
+}
+.ujju:hover{
+				color: grey;
+}
+#home p{
+			  text-align:center;
+			  font-size:1rem;
+			  font-family:'Bree serif',serif;
+}
+#services{
+position:absolute;
+min-height:500px;
+min-width:350px;
+background-position:center;
+background-size:cover;
+text-align:center;	
+display:flex;
+
+}
+#services .box{
+				border:2px solid brown;
+				padding:34px;
+				margin:2px 30px;
+				border-radius:28px;
+			 background:#f2f2f2;
+				margin-bottom:20px;
+		
+}
+#services .box img{
+				height:100px;
+				width:200px ;
+				margin:auto;
+				display:block;
+}
+.h3-primary {
+				text-align:center;
+				font-size:22px;
+				background: brown;
+				color: white;
+				margin: 8px auto;
+				padding: 5px 15px;
+				margin-bottom:0px;
+}
+#client-section{
+min-height:100%;
+min-width:100%;
+text-align:center;	
+}
+#clients .box{
+				border:2px solid brown;
+				padding:34px;
+				margin:2px auto;
+				border-radius:28px;
+			 background:#f2f2f2;
+				margin-bottom:20px;
+}
+#clients .box img{
+				height:200px;
+				width:250px ;
+				margin:auto;
+				display:block;
+}
+#contact{
+				position: relative;			
+}
+#contact{
+				position:absolute;
+ background:url('img/contact.jpg') no-repeat;
+	min-height:400px;
+	min-width:100%;
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+}
+#contact-box{
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+				width:250px;
+				padding:0.2rem;
+				margin:10px ;
+				border-radius:9px;
+				font-size:1.1rem;
+}
+#contact-box form{
+				width:80%;
+				padding:5px 10px;
+				margin:10px auto;
+}
+#contact-box label{
+				font-size:1rem;
+				font-family:'Bree serif',serif;
+}
+#contact h1{
+				color: red;
+}
+.bt{
+			background: brown;
+				color: white;
+				padding:6px 20px;
+				font-size:1rem;
+				border-radius:10px;
+				border:2px solid black
+}
+
+
+
+
+
